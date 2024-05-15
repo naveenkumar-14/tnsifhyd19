@@ -18,7 +18,7 @@ public class InsertData {
 		    
 		    PreparedStatement statement = conn.prepareStatement(sql);
 		    statement.setString(1, "Shivaraj");
-		    statement.setString(2, "Goa");
+		    statement.setString(2, "Banglore");
 		    
 		     
 		    int rowsInserted = statement.executeUpdate();
