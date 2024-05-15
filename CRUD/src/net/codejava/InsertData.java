@@ -23,7 +23,7 @@ public class InsertData {
 		     
 		    int rowsInserted = statement.executeUpdate();
 		    if (rowsInserted > 0) {
-		        System.out.println("A new user was inserted successfully!");
+		        System.out.println("A user was inserted ");
 		    }
 		} catch (SQLException ex) {
 		    ex.printStackTrace();
