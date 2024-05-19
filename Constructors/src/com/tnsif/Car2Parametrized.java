@@ -1,4 +1,4 @@
-package com.oop1.constructor;
+package com.tnsif;
 
 public class Car2Parametrized {
 	
